@@ -1,4 +1,4 @@
-//Programa serie Fibonacci
+//Programa que despliega la sucesión de Fibonacci, de acuerdo al numero que teclee el usuario.
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main(){
    /* revisando documentos estos serían los primeros terminos 
       de la serie: a0= 0 y a1= 1
     */
-    int val1 = 0;
+    int val1 = 0;         //Inicialización variables
 
     int val2 = 1;
 
