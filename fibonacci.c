@@ -22,7 +22,7 @@ int main(){
     printf(" ]\n"); //Se hace un salto de linea
     val1=0; //Se reasignan los valores originales
 	val2=1;
-    printf("Quieres hacerlo otra vez [s=1/n=0]:"); //Se le solicita al usuario si quiere seguir con el procedimiento tecleando 2 numeros
+    printf("Quieres repetir el programa? [s=1/n=0]:"); //Se le solicita al usuario si quiere seguir con el procedimiento tecleando 2 numeros
 	scanf("%i",&intentar);
 	while(intentar<0 || intentar>1){ //Si los numeros agregados no son del rango [0,1], tienen que volverlo a hacer
 		printf("Ingrese un numero del 0 y 1, no ingrese otro valor");
