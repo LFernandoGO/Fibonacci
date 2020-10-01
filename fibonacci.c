@@ -20,31 +20,31 @@ int main(){
    
     if (n <= 0)
    	printf("No existen dicho termino en la serie de fibonacci, intente de nuevo");
-   else 
+   else{ 
       
-   printf("Sucesion:\n");
-   
-   if(n == 0)
-      printf("0");
-   else{
-      if(n == 1)
-         printf("0, 1");
+      printf("Sucesion:\n");
+
+      if(n == 0)
+         printf("0");
       else{
-         printf("0, 1");
-         for(cont=0;cont<n;cont++){
+         if(n == 1)
+            printf("0, 1");
+         else{
+            printf("0, 1");
+            for(cont=0;cont<n;cont++){
 
-             fibonacci = val1 + val2;
+                fibonacci = val1 + val2;
 
-             printf(", %d",fibonacci);
+                printf(", %d",fibonacci);
 
-             val1 = val2;
+                val1 = val2;
 
-             val2 = fibonacci;
+                val2 = fibonacci;
+            }
+
          }
-
       }
    }
-
    return 0;
    //comit de prueba
    //prueba 3
